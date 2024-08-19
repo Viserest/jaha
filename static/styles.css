@@ -64,8 +64,9 @@ p {
 }
 
 .xofoan img {
-    width: 300px;
     height: 500px;
+    width: auto;
+}
 
 .xofoan a {
     font-size: 25px;
