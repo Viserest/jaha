@@ -68,11 +68,7 @@ p {
     width: auto;
 }
 
-.xofoan a:hover {
-    color: white;
-}
-
-.pcmsbq a {
+.xofoan a:not(.exempt) {
     font-size: 25px;
     text-decoration: none;
     letter-spacing: 2px;
@@ -81,6 +77,10 @@ p {
     padding: 25px;
     border: 1px solid black;
     transition-duration: .4s;
+}
+
+.xofoan a:hover {
+    color: white;
 }
 
 .pcmsbq {
