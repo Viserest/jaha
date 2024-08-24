@@ -49,8 +49,11 @@ p {
 
 .avyulv {
     height: 500px;
-    color: white;
     background: black;
+}
+
+.avyulv > * {
+    display: none;
 }
 
 /* END SLIDESHOW */
@@ -109,6 +112,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gedfvs {
+    background: black;
 }
 
 .bphpjf > div {

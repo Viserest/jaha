@@ -1,8 +1,4 @@
 window.onload = ()=>{
-    async function bookSession(data){
-        
-        return response;
-    }
     document.getElementById('pupcyf').onclick = ()=>{
         var error = document.getElementById('pupcyg');
         var name = document.getElementById('pupcya').value;
@@ -40,4 +36,11 @@ window.onload = ()=>{
             });
         }
     }
+    window.main_slide_ = 0;
+    var slides = document.getElementById('mainslide').children;
+    setInterval(()=>{
+        slides[window.main_slide_].styles.display = "none";
+        window.main_slide_++;
+        slides[window.main_slide_].styles.display = "block";
+    },5000);
 }
