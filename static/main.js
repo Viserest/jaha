@@ -1,5 +1,5 @@
 window.onload = () => {
-    main_slide = 0;
+    var main_slide = 0;
     var slides = document.getElementById('mainslide').children;
     setInterval(()=>{
         slides[main_slide].styles.display = "none";
